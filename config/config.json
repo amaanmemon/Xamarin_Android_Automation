@@ -1,0 +1,67 @@
+
+{
+	"build_file_path_ios": "users/.../myapp.ipa",
+	"build_file_path": "D:\\ConferenceAndroid2.apk",
+	"execute": "flow",
+	"servers": {
+	  "local": {
+		"host": "172.16.0.151",
+		"port": 4723
+	  }
+	},
+	  "servers1": {
+		"local": {
+		  "host": "172.16.0.151",
+		  "port": 4724
+		}
+	  },
+	  "servers2": {
+		"local": {
+		  "host": "172.16.0.151",
+		  "port": 4725
+		}
+	  },
+	  "servers3": {
+		"local": {
+		  "host": "172.16.0.151",
+		  "port": 4726
+		}
+	  },
+	"environments": {
+		"ios81": {
+			"browserName": "",
+			"appium-version": "1.3",
+			"platformName": "iOS",
+			"platformVersion": "8.1.1",
+			"deviceName": "Amaan Memon’s iPad",
+			"app": ""
+		},
+		"android18": {
+			"browserName": "",
+			"appium-version": "1.3",
+			"platformName": "Android",
+			"platformVersion": "4.1.2",
+			"deviceName": "FA464WM06593",
+			"app": ""
+		},
+		"android19": {
+			"browserName": "Chrome",
+			"appium-version": "1.3",
+			"platformName": "Android",
+			"platformVersion": "4.1.2",
+			"deviceName": "FA464WM06593"
+		},
+		"selendroid16": {
+			"browserName": "",
+			"appium-version": "1.3",
+			"platformName": "Android",
+			"platformVersion": "4.1",
+			"automationName": "selendroid",
+			"deviceName": "Android Emulator",
+			"app": ""
+		}
+	},
+	"session": {
+		"is_authenticated": false
+	}
+}
