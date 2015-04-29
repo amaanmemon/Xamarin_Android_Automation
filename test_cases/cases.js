@@ -41,7 +41,7 @@ var list = exports.list = {
             service: "Gmail",
             auth: {
                 user: "amaan.memon@raweng.com",
-                pass: "9322035486"
+                pass: "*******"
             }
         });
 
